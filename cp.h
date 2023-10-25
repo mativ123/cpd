@@ -9,6 +9,7 @@
 #define mulighed case
 #define ødlæg break
 #define standard default
+#define primær main
 
 #define afbryd abort
 #define absolutværdi abs
