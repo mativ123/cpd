@@ -2,7 +2,7 @@
 
 #include "cp.h"
 
-hel primær() {
+hel hoved() {
     forhver(hel i = 0; i<10; i++) {
         skriv("din mor %d\n", i);
     }
