@@ -10,6 +10,7 @@
 #define oedlaeg break
 #define standard default
 #define hoved main
+#define tomrum void
 
 #define afbryd abort
 #define absolutvaerdi abs
