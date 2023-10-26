@@ -12,6 +12,7 @@
 #define hoved main
 #define tomrum void
 
+// standard bibliotek
 #define afbryd abort
 #define absolutvaerdi abs
 #define arkuskosinus acos
@@ -27,7 +28,6 @@
 #define strengtillang atol
 #define binaersoegning bsearch
 #define bytetilwctegn btowc
-
 #define calloc calloc
 #define katluk catclose
 #define katfaa catgets
@@ -57,9 +57,7 @@
 #define henttegn fgetc
 #define hentposition fgetpos
 #define hentstreng fgets
-
 #define hentwstreng fgetws
-
 #define filnummer fileno
 #define afrundingnedad floor
 #define modulo fmod
@@ -68,9 +66,7 @@
 #define skrivtegn fputc
 #define skrivstreng fputs
 #define skrivwctegn fputwc
-
 #define skrivwstreng fputws
-
 #define laesfil fread
 #define fri free
 #define aabnomfil freopen
@@ -80,19 +76,15 @@
 #define saetposition fsetpos
 #define fortel ftell
 #define filbredde fwide
-
 #define fwprintf fwprintf
-
 #define skrivtilfil fwrite
 #define fwscanf fwscanf
-
 #define gamma gamma
 #define henttegn getc
 #define henttegn getchar
 #define hentmiljoe getenv
 #define hentstreng gets
 #define hentwctegn getwc
-
 #define hentwchar getwchar
 #define lokaltid gmtime
 #define lokaltid64 gmtime64
@@ -168,7 +160,6 @@
 #define saetmiljoe putenv
 #define skrivstreng puts
 #define skrivwctegn putwc
-
 #define skrivwchar putwchar
 #define qsort qsort
 #define quantexpd32 quantexpd32
@@ -240,7 +231,6 @@
 #define storbogstavw towupper
 #define opsla ungetc
 #define opslawctegn ungetwc
-
 #define va_arg va_arg
 #define va_copy va_copy
 #define va_end va_end
@@ -248,20 +238,15 @@
 #define vfprintf vfprintf
 #define vfscanf vfscanf
 #define vfwprintf vfwprintf
-
 #define vfwscanf vfwscanf
-
 #define vprintf vprintf
 #define vscanf vscanf
 #define vsprintf vsprintf
 #define vsnprintf vsnprintf
 #define vsscanf vsscanf
 #define vswprintf vswprintf
-
 #define vswscanf vswscanf
-
 #define vwprintf vwprintf
-
 #define vwscanf vwscanf
 #define wcrtomb wcrtomb
 #define wcssammensaet wcscat
