@@ -5,9 +5,10 @@
 #define imens while
 #define forhver for
 #define returner return
+#define returnér return
 #define knap switch
 #define mulighed case
-#define ødlæg break
+#define ødelæg break
 #define standard default
 #define hoved main
 #define tomrum void
@@ -162,6 +163,7 @@
 #define skrivwctegn putwc
 #define skrivwchar putwchar
 #define qsort qsort
+#define hurtigsortér qsort
 #define quantexpd32 quantexpd32
 #define quantexpd64 quantexpd64
 #define quantexpd128 quantexpd128
